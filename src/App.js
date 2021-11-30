@@ -1,10 +1,37 @@
+import React, { useEffect } from 'react';
 import './App.scss';
 import nightSky from './assets/images/nightsky3_sky.jpg';
 import trees from './assets/images/nightsky_only_trees.png';
-import titleRocket from './assets/images/title-rocket.svg';
-import bigRocketIcon from './assets/images/big-rocket-icon.svg';
+import titleRocket from './assets/images/title-rocket-outline.svg';
+import bigRocketIcon from './assets/images/big-rocket-icon-outline.svg';
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 const App = () => {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.to(".big-rocket-icon", {
+      scrollTrigger: {
+        trigger: ".background",
+        start: "top top",
+        endTrigger: ".big-rocket-icon",
+        end: "bottom top",
+        scrub: 1,
+      },
+      x: '99.9vw',
+    });
+    gsap.to(".title-quote", {
+      scrollTrigger: {
+        trigger: ".background",
+        start: "top top",
+        endTrigger: ".big-rocket-icon",
+        end: "top top",
+        scrub: true,
+      },
+      opacity: 0,
+    });
+  }, []);
+
   return (
     <div className="App">
       <div className="background">

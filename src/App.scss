@@ -1,37 +1,25 @@
 .App {
     overflow-x: hidden;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-
-    &::-webkit-scrollbar {
-        display: none;
-    }
+    height: 250vh;
 }
 
 .title-quote {
     position: absolute;
     z-index: 2;
-    top: 22.5%;
-    left: 6%;
-    width: 40vw;
+    top: 37.5%;
+    left: 10%;
+    width: 42.5vw;
+    max-width: 50vw;
     color: white;
-    background-color: rgba(0, 0, 0, 0.05);
-    padding: 0 0.5em;
-    border-radius: 60px;
-    cursor: pointer;
-    transition: .3s ease;
-
-    &:hover {
-        transform: scale(1.15);
-        background-color: rgba(0, 0, 0, 0);
-    }
+    -webkit-filter: drop-shadow( 1px 1px 1px rgb(0, 0, 0));
+    filter: drop-shadow( 1px 1px 1px rgb(0, 0, 0));
 }
 
 .big-rocket-icon {
     position: absolute;
     z-index: 2;
-    width: 17.5%;
-    top: 30%;
+    width: 17%;
+    top: 24.5%;
     left: -18%;
 }
 
