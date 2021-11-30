@@ -26,7 +26,7 @@ const Header = () => {
             start: "top top",
             endTrigger: ".big-rocket-icon",
             end: "top top",
-            scrub: true,
+            scrub: 1,
           },
           opacity: 0,
         });
