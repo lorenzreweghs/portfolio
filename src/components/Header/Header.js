@@ -11,6 +11,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 const Header = () => {
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
+
         gsap.to(".big-rocket-icon", {
           scrollTrigger: {
             trigger: ".background",
@@ -21,6 +22,7 @@ const Header = () => {
           },
           x: '99.9vw',
         });
+        
         gsap.to(".title-quote", {
           scrollTrigger: {
             trigger: ".background",
