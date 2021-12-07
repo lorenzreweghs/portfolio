@@ -1,6 +1,7 @@
 .house-bg {
     background-image: url('./assets/images/house_nightsky_black-top.jpg');
+    background-attachment: fixed;
     background-size: cover;
-    background-position: center;
-    height: 1280px;
+    background-position: bottom;
+    height: 1000px;
 }
