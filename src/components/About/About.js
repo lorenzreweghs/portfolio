@@ -12,6 +12,7 @@ const About = () => {
                 trigger: ".About",
                 toggleActions: "restart reverse restart reverse",
                 start: "bottom bottom",
+                endTrigger: ".about-me",
                 end: "top top",
             },
             x: "75px",
