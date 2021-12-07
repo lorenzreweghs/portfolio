@@ -15,7 +15,7 @@ const About = () => {
                 endTrigger: ".about-me",
                 end: "top top",
             },
-            x: "75px",
+            x: "50px",
             duration: 0.5,
             ease: "power2.inOut",
         });
