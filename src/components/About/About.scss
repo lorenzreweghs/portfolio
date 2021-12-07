@@ -6,7 +6,7 @@
     overflow-x: hidden;
 }
 
-.about-me, .name, .education {
+.about-me, .name, .expertise {
     position: absolute;
     color: white;
     text-shadow: 1px 1px 1px black;
@@ -28,7 +28,7 @@
     opacity: 0;
 }
 
-.education {
+.expertise {
     top: 44.5%;
     font-size: 36px;
     font-weight: 500;
