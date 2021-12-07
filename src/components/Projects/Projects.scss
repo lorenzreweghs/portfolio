@@ -1,0 +1,20 @@
+.Projects {
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    z-index: 1;
+    overflow-x: hidden;
+    margin-top: 300px;
+}
+
+.projects-tag {
+    position: absolute;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    left: -100px;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    top: 47.5%;
+    transform: rotate(-90deg);
+}
