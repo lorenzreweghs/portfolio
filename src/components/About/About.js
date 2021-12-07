@@ -12,9 +12,10 @@ const About = () => {
                 trigger: ".About",
                 toggleActions: "restart reverse restart reverse",
                 start: "bottom bottom",
+                endTrigger: ".about-me",
                 end: "top top",
             },
-            x: "75px",
+            x: "50px",
             duration: 0.5,
             ease: "power2.inOut",
         });
@@ -30,14 +31,14 @@ const About = () => {
             opacity: 1,
         });
         
-        gsap.to(".education", {
+        gsap.to(".expertise", {
             scrollTrigger: {
                 trigger: ".About",
                 start: "top bottom",
                 end: "center center",
                 scrub: 1,
             },
-            x: "-70vw",
+            x: "-72.5vw",
             opacity: 1,
         });
     }, []);
@@ -46,7 +47,7 @@ const About = () => {
         <section className="About">
             <span className="about-me">About me</span>
             <h1 className="name">Lorenz Reweghs</h1>
-            <h2 className="education">Multimedia and Creative Technologies</h2>
+            <h2 className="expertise">Front-end & Back-end developer</h2>
         </section>
     );
 };

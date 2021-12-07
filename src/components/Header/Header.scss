@@ -58,7 +58,7 @@
 
 .nightsky {
     margin-top: -3px;
-    width: 130%;
+    width: 125%;
     height: 100.3%;
     animation: bg-translate infinite 150s alternate linear;
 }
@@ -72,5 +72,5 @@
 
 @keyframes bg-translate {
     from { transform: translateX(0); }
-    to { transform: translateX(-23.5%); }
+    to { transform: translateX(-20%); }
 }
