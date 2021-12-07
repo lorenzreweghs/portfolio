@@ -1,14 +1,20 @@
 .Header {
     overflow-x: hidden;
-    height: 250vh;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+      }
 }
 
 .title-quote {
     position: absolute;
     z-index: 2;
-    top: 37.5%;
+    top: 38%;
     left: 10%;
-    width: 42.5vw;
+    width: 42vw;
     max-width: 50vw;
     color: white;
     -webkit-filter: drop-shadow( 1px 1px 1px rgb(0, 0, 0));
@@ -19,8 +25,30 @@
     position: absolute;
     z-index: 2;
     width: 17%;
-    top: 24.5%;
+    top: 24.75%;
     left: -18%;
+    -webkit-filter: drop-shadow( 1px 1px 1px rgb(0, 0, 0));
+    filter: drop-shadow( 1px 1px 1px rgb(0, 0, 0));
+}
+
+.small-rocket-icon {
+    position: absolute;
+    z-index: 2;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%) rotate(115deg);
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5px 2px 0 2px;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 1px -1px 3px black;
+    cursor: pointer;
+    transition: .3s ease;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
 }
 
 .background {
@@ -30,9 +58,9 @@
 
 .nightsky {
     margin-top: -3px;
-    width: 150%;
+    width: 130%;
     height: 100.3%;
-    animation: bg-translate infinite 180s alternate linear;
+    animation: bg-translate infinite 150s alternate linear;
 }
 
 .trees {
@@ -44,5 +72,5 @@
 
 @keyframes bg-translate {
     from { transform: translateX(0); }
-    to { transform: translateX(-33%); }
+    to { transform: translateX(-23.5%); }
 }
