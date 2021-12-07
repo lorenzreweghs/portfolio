@@ -26,7 +26,7 @@ const About = () => {
                 end: "center center",
                 scrub: 1,
             },
-            x: "50vw",
+            x: "52.5vw",
             opacity: 1,
         });
         
@@ -46,7 +46,7 @@ const About = () => {
         <section className="About">
             <span className="about-me">About me</span>
             <h1 className="name">Lorenz Reweghs</h1>
-            <h2 className="education">Multimedia And Creative Technologies</h2>
+            <h2 className="education">Multimedia and Creative Technologies</h2>
         </section>
     );
 };
