@@ -38,7 +38,7 @@ const About = () => {
                 end: "center center",
                 scrub: 1,
             },
-            x: "-72.5vw",
+            x: "-60vw",
             opacity: 1,
         });
     }, []);
@@ -47,7 +47,7 @@ const About = () => {
         <section className="About">
             <span className="about-me">About me</span>
             <h1 className="name">Lorenz Reweghs</h1>
-            <h2 className="expertise">Front-end & Back-end developer</h2>
+            <h2 className="expertise">Full Stack JavaScript developer</h2>
         </section>
     );
 };
