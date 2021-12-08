@@ -1,0 +1,30 @@
+.Skills {
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    z-index: 1;
+    overflow-x: hidden;
+    margin-top: 300px;
+}
+
+.skills-tag {
+    position: absolute;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+    left: -70px;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    top: 45%;
+    transform: rotate(-90deg);
+}
+
+.skills-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5%;
+}
+
+.skills-div img {
+    width: 12.5%;
+}
