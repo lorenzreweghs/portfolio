@@ -14,6 +14,7 @@ import Adobe_XD from '../../assets/images/skills/Adobe_XD.png';
 const Skills = () => {
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
+        gsap.defaults({duration: 0.5, ease: "power2.inOut"});
 
         gsap.to(".skills-tag", {
             scrollTrigger: {
@@ -23,23 +24,40 @@ const Skills = () => {
                 endTrigger: ".skills-tag",
                 end: "top top",
             },
-            x: "50px",
-            duration: 0.5,
-            ease: "power2.inOut",
+            x: "50px"
         });
+
+        const skillsTimeline = gsap.timeline();
+
+        skillsTimeline
+        .from(".html", {opacity: 0, y: "25px"})
+        .from(".css", {opacity: 0, y: "25px"})
+        .from(".javascript", {opacity: 0, y: "25px"})
+        .from(".angular", {opacity: 0, y: "25px"})
+        .from(".react", {opacity: 0, y: "25px"})
+        .from(".node", {opacity: 0, y: "25px"})
+        .from(".xd", {opacity: 0, y: "25px"});
+
+        ScrollTrigger.create({
+            animation: skillsTimeline,
+            trigger: ".Skills",
+            toggleActions: "restart none none reset",
+            start: "center bottom",
+            end: "center top",
+        })
     }, []);
 
     return (
         <section className="Skills">
             <span className="skills-tag">Skills</span>
             <div className="skills-div">
-                <img src={HTML} alt="rocket with HTML icon inside" />
-                <img src={CSS} alt="rocket with CSS icon inside" />
-                <img src={JavaScript} alt="rocket with JavaScript icon inside" />
-                <img src={Angular} alt="rocket with Angular icon inside" />
-                <img src={Reactjs} alt="rocket with React icon inside" />
-                <img src={Nodejs} alt="rocket with Node.js icon inside" />
-                <img src={Adobe_XD} alt="rocket with Adobe XD icon inside" />
+                <img src={HTML} className="html" alt="rocket with HTML icon inside" />
+                <img src={CSS} className="css" alt="rocket with CSS icon inside" />
+                <img src={JavaScript} className="javascript" alt="rocket with JavaScript icon inside" />
+                <img src={Angular} className="angular" alt="rocket with Angular icon inside" />
+                <img src={Reactjs} className="react" alt="rocket with React icon inside" />
+                <img src={Nodejs} className="node" alt="rocket with Node.js icon inside" />
+                <img src={Adobe_XD} className="xd" alt="rocket with Adobe XD icon inside" />
             </div>
         </section>
     );

@@ -15,14 +15,15 @@
     font-weight: 700;
     font-size: 30px;
     text-transform: uppercase;
-    top: 45%;
+    top: 44%;
     transform: rotate(-90deg);
 }
 
 .skills-div {
     display: flex;
     justify-content: center;
-    margin-top: 3.5%;
+    align-items: center;
+    height: 300px;
 }
 
 .skills-div img {
