@@ -7,6 +7,7 @@ import smallRocketIcon from '../../assets/images/rocket_icon.png';
 import bigRocketIcon from '../../assets/svg/big-rocket-icon-outline.svg';
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import Navigation from '../Navigation/Navigation';
 
 const Header = () => {
     useEffect(() => {
@@ -38,6 +39,7 @@ const Header = () => {
     return (
         <header className="Header">
             <div className="background">
+                <Navigation />
                 <div className="title-rocket-div">
                 <img src={titleRocket} className="title-quote" alt="quote with a rocket icon" />
                 <img src={bigRocketIcon} className="big-rocket-icon" alt="big icon of a rocket" />

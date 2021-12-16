@@ -1,0 +1,26 @@
+.anchor-nav {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+
+    ul {
+        display: flex;
+        padding: 0;
+    }
+
+    li {
+        color: white;
+        font-size: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    }
+
+    a {
+        margin: 0 2em;
+        list-style-type: none;
+        text-decoration: none;
+    }
+}
