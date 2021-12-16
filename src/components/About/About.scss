@@ -9,7 +9,7 @@
 .about-me, .name, .expertise {
     position: absolute;
     color: white;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
 }
 
 .about-me {
@@ -22,16 +22,16 @@
 }
 
 .name {
-    top: 12.5%;
+    top: 13%;
     font-size: 48px;
-    left: -29%;
+    left: -425px;
     opacity: 0;
 }
 
 .expertise {
-    top: 44.5%;
+    top: 45%;
     font-size: 36px;
     font-weight: 500;
-    right: -53.5%;
+    right: -575px;
     opacity: 0;
 }
