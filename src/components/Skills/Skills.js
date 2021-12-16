@@ -80,7 +80,7 @@ const Skills = () => {
     }
 
     return (
-        <section className="Skills">
+        <section className="Skills" id="skills">
             <span className="skills-tag">Skills</span>
             <div className="skills-div">
                 <div>
