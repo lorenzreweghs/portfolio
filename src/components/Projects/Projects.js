@@ -24,7 +24,7 @@ const Projects = () => {
 
         gsap.to(".carousel", {
             scrollTrigger: {
-                trigger: ".carousel",
+                trigger: ".projects-list",
                 toggleActions: "restart none none reset",
                 start: "top bottom",
                 end: "bottom top",
