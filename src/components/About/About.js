@@ -9,10 +9,9 @@ const About = () => {
 
         gsap.to(".about-me", {
             scrollTrigger: {
-                trigger: ".About",
+                trigger: ".about-me",
                 toggleActions: "restart reverse restart reverse",
-                start: "bottom bottom",
-                endTrigger: ".about-me",
+                start: "top center",
                 end: "top top",
             },
             x: "50px",

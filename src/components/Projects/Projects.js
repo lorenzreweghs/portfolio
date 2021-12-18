@@ -12,10 +12,9 @@ const Projects = () => {
 
         gsap.to(".projects-tag", {
             scrollTrigger: {
-                trigger: ".Projects",
+                trigger: ".projects-tag",
                 toggleActions: "restart reverse restart reverse",
-                start: "bottom bottom",
-                endTrigger: ".projects-tag",
+                start: "top center",
                 end: "top top",
             },
             x: "55px",

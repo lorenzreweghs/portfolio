@@ -10,9 +10,9 @@ const Navigation = () => {
         gsap.to(".anchor-nav", {
             scrollTrigger: {
                 trigger: ".anchor-nav",
-                toggleActions: "restart none restart reset",
+                toggleActions: "restart none restart none",
                 start: "top top",
-                end: "+=90",
+                end: "+=95",
             },
             top: "10px",
             duration: 0.6,

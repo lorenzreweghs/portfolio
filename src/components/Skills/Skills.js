@@ -18,10 +18,9 @@ const Skills = () => {
 
         gsap.to(".skills-tag", {
             scrollTrigger: {
-                trigger: ".Skills",
+                trigger: ".skills-tag",
                 toggleActions: "restart reverse restart reverse",
-                start: "bottom bottom",
-                endTrigger: ".skills-tag",
+                start: "top center",
                 end: "top top",
             },
             x: "50px"
