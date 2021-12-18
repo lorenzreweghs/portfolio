@@ -1,0 +1,24 @@
+{
+    "projects": [
+        {
+            "name": "Beerista",
+            "image": "/beerista.JPG",
+            "description": "Beerista is de ideale website voor elke bierliefhebber. Vind duizenden bieren terug, voeg ze toe aan je favorieten en geef ze een rating. Zo weten andere mensen meteen welke bier ze als volgende moeten uitproberen!"
+        },
+        {
+            "name": "Calling Card",
+            "image": "/calling-card.JPG",
+            "description": "Ik heb in mijn leven al een heel aantal leuke herinneringen gecreëerd. Op deze website vind je foto's terug die enkele van mijn mooiste herinneringen respresenteren!"
+        },
+        {
+            "name": "Final Show",
+            "image": "/finalshow.JPG",
+            "description": "Om de projecten van de laatstejaars te promoten, wordt er ieder jaar voor het vak Full Projects IV een Final Show georganiseerd. Deze website faciliteerde in 2021 de Final Show."
+        },
+        {
+            "name": "Instagram",
+            "image": "/instagram.JPG",
+            "description": "Om Angular onder de knie te krijgen, heb ik Instagram deels een nieuw design gegeven en enkele features uitgewerkt in Angular."
+        }
+    ]
+}
