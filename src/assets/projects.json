@@ -1,6 +1,26 @@
 {
     "projects": [
         {
+            "name": "Vitrine",
+            "image": "/vitrine-app.JPG",
+            "description": "Aangezien de Erasmushogeschool een vitrine-website nodig had voor studenten om hun projecten te uploaden en te bekijken, hebben we samen met enkele studenten een vitrine website gemaakt. Op deze website kan de student een account aanmaken, zijn of haar projecten uploaden en de projecten van alle studenten bekijken & filteren."
+        },
+        {
+            "name": "Framer Motion",
+            "image": "/framer-motion.JPG",
+            "description": "Voor het specialisatievak Web III ben ik aan de slag gegaan met de animation library Framer Motion, aangezien ik deze ook voor mijn eindwerk zal gebruiken. De website weergeeft enkele kaartjes met meer informatie over een willekeurig hondenras. Deze kaartjes kunnen open- en dichtgeklikt en versleept worden over de hele website. Kaartjes kunnen ook verwijderd worden door ze naar de prullenmand te slepen, zodat deze niet meer weergeven worden en een ander kaartje in de plaats komt."
+        },
+        {
+            "name": "Cocktails",
+            "image": "/cocktails.JPG",
+            "description": "Om de features van Nuxt te ontdekken, heb ik een cocktail website gemaakt waarop de gebruiker cocktails kan opzoeken of een willekeurige cocktail aangeraden krijgt. De voordelen van Nuxt zijn o.a. server-side rendering en verbeterde SEO."
+        },
+        {
+            "name": "Quiz-App",
+            "image": "/quiz-app.JPG",
+            "description": "Dit project draait volledig rond quizzen, zoals de naam al doet vermoeden. De gebruiker kan vragen stellen of beantwoorden en steeds een overzicht raadplegen van al deze antwoorden. De website is verbonden aan een database, dus de vragen & antwoorden gaan nooit verloren."
+        },
+        {
             "name": "Beerista",
             "image": "/beerista.JPG",
             "description": "Beerista is de ideale website voor elke bierliefhebber. Vind duizenden bieren terug, voeg ze toe aan je favorieten en geef ze een rating. Zo weten andere mensen meteen welke bier ze als volgende moeten uitproberen!"
@@ -13,7 +33,7 @@
         {
             "name": "Final Show",
             "image": "/finalshow.JPG",
-            "description": "Om de projecten van de laatstejaars te promoten, wordt er ieder jaar voor het vak Full Projects IV een Final Show georganiseerd. Deze website faciliteerde in 2021 de Final Show."
+            "description": "Om de projecten van de laatstejaars te promoten, wordt er ieder jaar een Final Show georganiseerd. Voor het vak Full Projects IV kregen ik en enkele medestudenten de opdracht om een website maken die de Final Show van 2021 faciliteert. Hierbij hebben we o.a. gebruik gemaakt van three.js voor het 3D-gedeelte van de website."
         },
         {
             "name": "Instagram",
