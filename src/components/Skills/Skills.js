@@ -71,10 +71,10 @@ const Skills = () => {
         const clickTimeline = gsap.timeline();
 
         clickTimeline
-        .to(`.${skillElement}`, {y: "-250px", ease: "power3.in"})
-        .set(`.${skillElement}`, {y: "250px"})
-        .to(`.${skillElement}-p`, {y: "-250px"}, 0.5)
-        .set(`.${skillElement}-p`, {y: "100px"})
+        .to(`.${skillElement}`, {y: "-300px", ease: "power3.in"})
+        .set(`.${skillElement}`, {y: "300px"})
+        .to(`.${skillElement}-p`, {y: "-300px"}, 0.5)
+        .set(`.${skillElement}-p`, {y: "150px"})
         .to(`.${skillElement}`, {y: "0px", ease: "power3.out"})
         .to(`.${skillElement}-p`, {y: "0px"}, 1.25);
     }
