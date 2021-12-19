@@ -40,10 +40,10 @@ const Skills = () => {
         ScrollTrigger.create({
             animation: skillsTimeline,
             trigger: ".Skills",
-            toggleActions: "restart none none reset",
+            toggleActions: "restart none none reverse",
             start: "center bottom",
             end: "center top",
-        })
+        });
     }, []);
 
     const onSkillHover = (e) => {
