@@ -1,0 +1,11 @@
+.App {
+    cursor: url(assets/images/cursor_rocket.png) 11 11, auto;
+}
+
+.house-bg {
+    background-image: url('./assets/images/house_nightsky_black-top.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    height: 1400px;
+}

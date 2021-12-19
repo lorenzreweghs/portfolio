@@ -1,0 +1,44 @@
+.Projects {
+    position: absolute;
+    height: 750px;
+    width: 100%;
+    z-index: 1;
+    overflow-x: hidden;
+    margin-top: 600px;
+}
+
+.projects-tag {
+    position: absolute;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+    left: -100px;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    top: 46%;
+    transform: rotate(-90deg);
+}
+
+.projects-list {
+    display: flex;
+    height: 750px;
+    margin: 0 7.5%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rec.rec-arrow {
+    background-color: white;
+
+    &:disabled {
+        visibility: hidden;
+    }
+
+    &:active {
+        background-color: white;
+    }
+}
+
+.carousel {
+    opacity: 0;
+}
